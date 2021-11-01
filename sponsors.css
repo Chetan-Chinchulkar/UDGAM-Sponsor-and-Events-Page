@@ -177,3 +177,25 @@ sup {
     align-items: center;
     /* opacity: 0.8; */
 }
+
+
+
+
+
+
+
+
+/* ########################### css added for other sponsors by dhruvesh ################################ */
+.other-sponsors{
+    margin: 20px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-basis: auto;
+}
+.single-other-sponsor{
+    /* width: 22%; */
+    border: 2px solid red;
+}
