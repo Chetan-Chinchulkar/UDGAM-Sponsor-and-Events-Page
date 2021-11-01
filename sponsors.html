@@ -19,6 +19,29 @@
 </head>
 <body>
     <div class="main">
+
+        <nav class="navbar sticky-top bg-dark" style="padding: 0;">
+            <div class="container nav-wrap">
+                <div class="leftnav">
+                    <a href=""> HOME </a>
+                    <a href=""> EVENTS </a>
+                    <a href=""> SPEAKERS </a>
+                    <a href=""> FAQ </a>
+                </div>
+                <div class="midnav">
+                    <!-- <a href="#"> logo </a> -->
+                </div>
+                <div class="rightnav">
+                    <a href=""> TEAM </a>
+                    <a href=""> Events </a>
+                    <a href=""> Speakers </a>
+                    <a href=""> FAQ </a>
+                </div>
+
+            </div>
+
+        </nav>
+        
         <section class="section-padding">
             
             <br><br><br>
@@ -432,7 +455,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-
+    <script>
+         $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 30);
+        });
+    </script>
 
 </body>
 </html>
