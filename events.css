@@ -151,6 +151,21 @@ body {
     display: none;
 }
 
+.title-b{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    /* #00B0E0 */
+
+    color: #00B0E0;
+
+
+}
 .back-btn:hover{
     color: black !important;
 }

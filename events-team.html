@@ -63,75 +63,131 @@
             <div class="carousel-inner">
               <div class="carousel-item">
                 
-                    <section class="section-padding" id="event2"style="padding-top: 120px; padding-bottom: 500px;">
-                        <div class="title" style="display: flex;justify-content: space-between;">
-                            <div>
-                                Register for Event 2
-                            </div>
-                            
+                <section class="section-padding" id="ls"style="padding-top: 120px; padding-bottom: 500px;">
+                    <div class="title" style="display: flex;justify-content: space-between;">
+                        <div>
+                            Register for Event 2
                         </div>
                         
-                        <div class="content" style="padding-top: 60px;">
-                            <div class="row  justify-content-between">
-                                <div class="col-7">
-                                    <form action="">
-                                        <div class="form-row">
-                                            <div class="form-group">
-                                                <label for="" style="padding-left: 5px;">
-                                                    YOU HEARD US FROM
-                                                </label>
-                                            </div>
+                    </div>
+                    
+                    <div class="content" style="padding-top: 60px;">
+                        <div class="row  justify-content-between" style="padding-left: 65px;">
+                            <div class="col-7" style="border-right: 1px solid #F4FDFF;padding-top: 60px;">
+                                <div class="row justify-content-between">
+                                    <div class="col-4">
+                                        <div class="row title-b ">
+                                            NAME
                                         </div>
-                                        <div class="form-row">
-                                            <div class="form-group btn-group btn-group-toggle col" data-toggle="buttons">
-                                                
-                                                    <label class="btn btn-secondary active" style="padding-right: 10px;">
-                                                        <input type="radio" name="options" id="option1" onclick="E2showmore()"> CAMPUS AMBASSADOR
-                                                    </label>
-                                                    
-                                                
-                                                    <label class="btn btn-secondary" style="padding-left: 10px;">
-                                                        <input type="radio" name="options" id="option2" onclick="E2showless()"> SOCIAL MEDIA
-                                                    </label>
-            
-                                            </div>
-                                            
+                                        <div class="row">
+                                            ANKIT SARAF
                                         </div>
-                                        <div class="form-group CA-option" id="E2-CAReferral" style="padding-top: 30px;">
-                                            <label for="inputAddress">CA REFERRAL ID</label>
-                                            <input type="text" class="form-control" id="inputAddress" placeholder="6969696">
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="row title-b ">
+                                            EMAIL ID
                                         </div>
-                                        <div class="form-row">
-                                            <div class="form-group">
-                                                <label for="" style="padding-left: 5px;">
-                                                    Do you want to confirm your Registration?
-                                                </label>
-                                            </div>
+                                        <div class="row">
+                                            a.saraj@iitg.ac.in
                                         </div>
-                                        <div class=" row justify-content-between">
-                                            <div class="form-group col-md-6" >
-                                                <a href="#">
-                                                    <button type="button" class="btn btn-primary" style="width: 21.75vw;">REGISTER AND PAY</button>
-                                                </a>
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <a href="#">
-                                                    <button type="button" class="btn btn-light back-btn" style="color: white;width: 21.75vw;">GO BACK</button>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    
+                                    </div>
                                 </div>
-                            
-                                <div class="col-4 align-self-center" style="border: solid 1px #C4C4C4;">
-                                    <img src="" class="img-fluid" alt="" width="400" height="400" style="background-color: white; padding-right: 10px;">
+                                <div class="row justify-content-between" style="padding-top: 30px;">
+                                    <div class="col-4">
+                                        <div class="row title-b ">
+                                            USER ID
+                                        </div>
+                                        <div class="row">
+                                            696969669
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="row title-b ">
+                                            UDGAM PASS ID
+                                        </div>
+                                        <div class="row" id="PassID">
+                                            696969669
+                                            <button onclick="copyID()">
+                                                <i class="glyphicon glyphicon-copy"></i>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
-                            
-
+                                
                             </div>
+                        
+                            <div class="col-4 align-self-center" style="border: solid 1px #C4C4C4;">
+                                <img src="" class="img-fluid" alt="" width="400" height="400" style="background-color: white; padding-right: 10px;">
+                            </div>
+                        
+
                         </div>
-                    </section>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="content" style="padding-top: 60px;">
+                        <form action="">
+                            
+                                    <div class="form-row row justify-content-start" style="display: flex; justify-content: center; align-items: center;text-align: center;">
+                                        <div class="form-group col-3" style="text-align: start;">
+                                            <label for="" class=" title-b ">
+                                                YOU HEARD US FROM
+                                            </label>
+                                        </div>
+                                        
+                                        <div class="form-group btn-group btn-group-toggle col-4" data-toggle="buttons">
+                                            
+                                            <label class="btn btn-secondary active" style="padding-right: 10px;">
+                                                <input type="radio" name="options" id="option1" onclick="E2showmore()"> CAMPUS AMBASSADOR
+                                            </label>
+                                            
+                                        
+                                            <label class="btn btn-secondary" style="padding-left: 10px;">
+                                                <input type="radio" name="options" id="option2" onclick="E2showless()"> SOCIAL MEDIA
+                                            </label>
+        
+                                        </div>
+                                        <div class="form-group CA-option col-5" id="E2-CAReferral" style="text-align: center;">
+                                            <div class="form-row" style="">
+
+                                                <label for="referral" class="col-6 title-b " >CA REFERRAL ID
+                                                </label>
+                                                <input type="text" class="form-control col-4" id="referral" placeholder="6969696">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-row " style="padding-top: 60px;">
+                                        <div class="form-group">
+                                            <label for="" style="padding-left: 5px;" class=" title-b ">
+                                                Do you want to confirm your Registration?
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-between">
+                                        <div class="form-group col-md-6" >
+                                            <a href="#">
+                                                <button type="button" class="btn btn-primary" style="width:100%">REGISTER AND PAY</button>
+                                            </a>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <a href="#">
+                                                <button type="button" class="btn btn-light back-btn" style="color: white;width:100%">GO BACK</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                   
+                        </form>
+
+                    </div>
+                </section>
                 </div>
                 
                 <div class="carousel-item active">
@@ -148,16 +204,16 @@
                             <div class="row  justify-content-between" style="padding-left: 65px;">
                                 <div class="col-7" style="border-right: 1px solid #F4FDFF;padding-top: 60px;">
                                     <div class="row justify-content-between">
-                                        <div class="col">
-                                            <div class="row">
+                                        <div class="col-4">
+                                            <div class="row title-b ">
                                                 NAME
                                             </div>
                                             <div class="row">
                                                 ANKIT SARAF
                                             </div>
                                         </div>
-                                        <div class="col">
-                                            <div class="row">
+                                        <div class="col-4">
+                                            <div class="row title-b ">
                                                 EMAIL ID
                                             </div>
                                             <div class="row">
@@ -165,21 +221,24 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row justify-content-between">
-                                        <div class="col">
-                                            <div class="row">
+                                    <div class="row justify-content-between" style="padding-top: 30px;">
+                                        <div class="col-4">
+                                            <div class="row title-b ">
                                                 USER ID
                                             </div>
                                             <div class="row">
                                                 696969669
                                             </div>
                                         </div>
-                                        <div class="col">
-                                            <div class="row">
+                                        <div class="col-4">
+                                            <div class="row title-b ">
                                                 UDGAM PASS ID
                                             </div>
-                                            <div class="row">
+                                            <div class="row" id="PassID">
                                                 696969669
+                                                <button onclick="copyID()">
+                                                    <i class="glyphicon glyphicon-copy"></i>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -193,13 +252,77 @@
     
                             </div>
                         </div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="content" style="padding-top: 60px;">
+                            <form action="">
+                                
+                                        <div class="form-row row justify-content-start" style="display: flex; justify-content: center; align-items: center;text-align: center;">
+                                            <div class="form-group col-3" style="text-align: start;">
+                                                <label for="" class=" title-b ">
+                                                    YOU HEARD US FROM
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="form-group btn-group btn-group-toggle col-4" data-toggle="buttons">
+                                                
+                                                    <label class="btn btn-secondary active">
+                                                        <input type="radio" name="options" id="option1" onclick="LSshowmore()"> CAMPUS AMBASSADOR
+                                                    </label>
+                                                    
+                                                
+                                                    <label class="btn btn-secondary">
+                                                        <input type="radio" name="options" id="option2" onclick="LSshowless()"> SOCIAL MEDIA
+                                                    </label>
+            
+                                            </div>
+                                            <div class="form-group CA-option col-5" id="LS-CAReferral" style="text-align: center;">
+                                                <div class="form-row" style="">
+
+                                                    <label for="referral" class="col-6 title-b " >CA REFERRAL ID
+                                                    </label>
+                                                    <input type="text" class="form-control col-4" id="referral" placeholder="6969696">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-row " style="padding-top: 60px;">
+                                            <div class="form-group">
+                                                <label for="" style="padding-left: 5px;" class=" title-b ">
+                                                    Do you want to confirm your Registration?
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between">
+                                            <div class="form-group col-md-6" >
+                                                <a href="#">
+                                                    <button type="button" class="btn btn-primary" style="width:100%">REGISTER AND PAY</button>
+                                                </a>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <a href="#">
+                                                    <button type="button" class="btn btn-light back-btn" style="color: white;width:100%">GO BACK</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                       
+                            </form>
+
+                        </div>
                     </section>
                     
                 </div>
                 
                 <div class="carousel-item">
                     
-                    <section class="section-padding" id="event1"style="padding-top: 120px; padding-bottom: 500px;">
+                    <section class="section-padding" id="ls"style="padding-top: 120px; padding-bottom: 500px;">
                         <div class="title" style="display: flex;justify-content: space-between;">
                             <div>
                                 Register for Event 1
@@ -208,55 +331,47 @@
                         </div>
                         
                         <div class="content" style="padding-top: 60px;">
-                            <div class="row  justify-content-between">
-                                <div class="col-7">
-                                    <form action="">
-                                        <div class="form-row">
-                                            <div class="form-group">
-                                                <label for="" style="padding-left: 5px;">
-                                                    YOU HEARD US FROM
-                                                </label>
+                            <div class="row  justify-content-between" style="padding-left: 65px;">
+                                <div class="col-7" style="border-right: 1px solid #F4FDFF;padding-top: 60px;">
+                                    <div class="row justify-content-between">
+                                        <div class="col-4">
+                                            <div class="row title-b ">
+                                                NAME
+                                            </div>
+                                            <div class="row">
+                                                ANKIT SARAF
                                             </div>
                                         </div>
-                                        <div class="form-row">
-                                            <div class="form-group btn-group btn-group-toggle col" data-toggle="buttons">
-                                                
-                                                    <label class="btn btn-secondary active" style="padding-right: 10px;">
-                                                        <input type="radio" name="options" id="option1" onclick="E1showmore()"> CAMPUS AMBASSADOR
-                                                    </label>
-                                                    
-                                                
-                                                    <label class="btn btn-secondary" style="padding-left: 10px;">
-                                                        <input type="radio" name="options" id="option2" onclick="E1showless()"> SOCIAL MEDIA
-                                                    </label>
-            
+                                        <div class="col-4">
+                                            <div class="row title-b ">
+                                                EMAIL ID
                                             </div>
-                                            
-                                        </div>
-                                        <div class="form-group  CA-option" id="E1-CAReferral">
-                                            <label for="inputAddress">CA REFERRAL ID</label>
-                                            <input type="text" class="form-control" id="inputAddress" placeholder="6969696">
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="form-group">
-                                                <label for="" style="padding-left: 5px;">
-                                                    Do you want to confirm your Registration?
-                                                </label>
+                                            <div class="row">
+                                                a.saraj@iitg.ac.in
                                             </div>
                                         </div>
-                                        <div class=" row justify-content-between">
-                                            <div class="form-group col-md-6" >
-                                                <a href="#">
-                                                    <button type="button" class="btn btn-primary" style="width: 21.75vw;">REGISTER AND PAY</button>
-                                                </a>
+                                    </div>
+                                    <div class="row justify-content-between" style="padding-top: 30px;">
+                                        <div class="col-4">
+                                            <div class="row title-b ">
+                                                USER ID
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                <a href="#">
-                                                    <button type="button" class="btn btn-light back-btn" style="color: white;width: 21.75vw;">GO BACK</button>
-                                                </a>
+                                            <div class="row">
+                                                696969669
                                             </div>
                                         </div>
-                                    </form>
+                                        <div class="col-4">
+                                            <div class="row title-b ">
+                                                UDGAM PASS ID
+                                            </div>
+                                            <div class="row" id="PassID">
+                                                696969669
+                                                <button onclick="copyID()">
+                                                    <i class="glyphicon glyphicon-copy"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
                                     
                                 </div>
                             
@@ -267,8 +382,72 @@
     
                             </div>
                         </div>
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <div class="content" style="padding-top: 60px;">
+                            <form action="">
+                                
+                                        <div class="form-row row justify-content-start" style="display: flex; justify-content: center; align-items: center;text-align: center;">
+                                            <div class="form-group col-3" style="text-align: start;">
+                                                <label for="" class=" title-b ">
+                                                    YOU HEARD US FROM
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="form-group btn-group btn-group-toggle col-4" data-toggle="buttons">
+                                                
+                                                <label class="btn btn-secondary active" style="padding-right: 10px;">
+                                                    <input type="radio" name="options" id="option1" onclick="E1showmore()"> CAMPUS AMBASSADOR
+                                                </label>
+                                                
+                                            
+                                                <label class="btn btn-secondary" style="padding-left: 10px;">
+                                                    <input type="radio" name="options" id="option2" onclick="E1showless()"> SOCIAL MEDIA
+                                                </label>
+            
+                                            </div>
+                                            <div class="form-group CA-option col-5" id="E1-CAReferral" style="text-align: center;">
+                                                <div class="form-row" style="">
+
+                                                    <label for="referral" class="col-6 title-b " >CA REFERRAL ID
+                                                    </label>
+                                                    <input type="text" class="form-control col-4" id="referral" placeholder="6969696">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-row " style="padding-top: 60px;">
+                                            <div class="form-group">
+                                                <label for="" style="padding-left: 5px;" class=" title-b ">
+                                                    Do you want to confirm your Registration?
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between">
+                                            <div class="form-group col-md-6" >
+                                                <a href="#">
+                                                    <button type="button" class="btn btn-primary" style="width:100%">REGISTER AND PAY</button>
+                                                </a>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <a href="#">
+                                                    <button type="button" class="btn btn-light back-btn" style="color: white;width:100%">GO BACK</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                       
+                            </form>
+
+                        </div>
                     </section>
-                    
+
                 </div>
             </div>
             
@@ -388,6 +567,23 @@
         function E1showless(){
             document.getElementById("E1-CAReferral").style.display = 'none';
         }
+    </script>
+
+    <script>
+        function copyID() {
+        /* Get the text field */
+        var copyText = document.getElementById("PassID");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 999999999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.value);
+
+        /* Alert the copied text */
+        alert("Copied : " + copyText.value);
+    }
     </script>
 </body>
 </html>
